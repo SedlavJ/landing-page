@@ -1,0 +1,48 @@
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+#header {
+    background-color: #1f2937;
+    display: flex;
+    
+}
+
+.headerLogo {
+    color: #f9faf8;
+    font-size: 24px;
+}
+
+ul {
+    list-style-type: none;
+}
+
+ul li {
+    display: inline;
+    font-size: 18px;
+    color: #e5e7eb;
+}
+
+#articleOne {
+    background-color: #1f2937;
+    display: flex;
+    color: #f9faf8;
+}
+
+#articleTwo {
+    background-color: white;
+}
+
+#articleThree {
+    background-color: #e5e7eb;
+}
+
+#articleFour {
+    background-color: white;
+}
+
+#footer {
+    background-color: #1f2937;
+    color: #f9faf8;
+}
