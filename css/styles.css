@@ -3,28 +3,31 @@ body {
     margin: 0;
 }
 /* Header starts here */
+
+#nav {
+    display: flex;
+    width: 100%;
+}
+
 header {
     background-color: #1f2937;
     font-size: 24px;
     font-weight: bolder;
     color: #f9faf8;
-    display: inline;
-    margin: 0;
     flex: 1;
+    margin: 0;
     text-align: center;
 }
 
 header p {
     margin: 0;
     margin-top: 20px;
-    margin-left: -170px;
 }
 
 /* nav starts here */
 nav {
     background-color: #1f2937;
     color: #f9faf8;
-    display: inline;
     margin: 0;
     flex: 1;
     text-align: center;
@@ -43,10 +46,3 @@ li {
 }
 
 /* Main starts here */
-main {
-
-}
-
-section {
-    
-}
